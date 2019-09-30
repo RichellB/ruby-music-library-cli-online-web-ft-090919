@@ -16,7 +16,7 @@ class Song
   end
   
   def save 
-    self.class.all  
+    self.class.all << self 
   end
   
   def self.destroy_all 

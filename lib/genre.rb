@@ -11,7 +11,7 @@ class Genre
     @songs = []
   end 
   
-  def self. all 
+  def self.all 
     @@all 
   end
   

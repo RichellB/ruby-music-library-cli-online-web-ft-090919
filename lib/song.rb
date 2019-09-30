@@ -20,7 +20,7 @@ class Song
   end
   
   def self.destroy_all 
-    @@all.clear 
+    all.clear 
   end
   
   def self.create(name) 
